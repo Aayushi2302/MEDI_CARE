@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+	<title>MEDI CARE | A Complete Healthcare Aide</title>
+  <link rel="icon" href="cardiogram.png" type="image/png">
+</head>
+
+<body>
+	<div class="header">
+		<header>
+			<h1>MEDI-CARE</h1>
+			<p>HEART OF YOUR HEALTHCARE</p>
+			<button type="button">Sign Up/Register</button>
+            <img src="doctor.png" width="250px" height="auto">
+            <img id="img" src="maledoc.png" width="200px" height="auto">
+        </header>
+    </div>
+    <div class="nav">
+        <nav id="hut">
+           <ul>
+            <li><a href="#"><i class="fas fa-map-marker"></i>Location</a></li>
+            <li><a href="#"><i class="fas fa-qrcode"></i>Dashboard</a></li>
+            <li><a href="#"><i class="fas fa-question-circle"></i>FAQ</a></li>
+            <li><a href="#"><i class="fas fa-book-medical"></i>Rules And Ethics</a></li>
+            <li><a href="services.html"><i class="fas fa-sliders-h"></i>Services</a></li>
+            <li><a href="#"><i class="fas fa-users"></i>About Us</a></li>
+            <li><a href="#"><i class="fas fa-hands-helping"></i>Hands Helping</a></li>
+           
+           </ul>
+        </nav>
+    </div>
+    <div class="head">
+        <h3><q>Please Register First And Then Fill The Necessary details</q></h3>
+    </div>
+    <div class="details">
+        <input type="email" required placeholder="Enter Your e-mail id">
+        <select name="state" id="box" required>
+            <p>Select State</p>
+            <option value="">--select your State--</option>
+            <option value="Andhra Pradesh ">Andhra Pradesh</option>
+            <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+            <option value="Assam">Assam</option>
+            <option value="Bihar">Bihar</option>
+            <option value=" Chhattisgarh">Chhattisgarh</option>
+            <option value="Goa">Goa</option>
+            <option value="Gujarat">Gujarat</option>
+            <option value=" Haryana">Haryana</option>
+            <option value="Himachal Pradesh">Himachal Pradesh</option>
+            <option value="Jammu and Kashmir ">Jammu and Kashmir</option>
+            <option value="Jharkhand">Jharkhand</option>
+            <option value="Karnataka">Karnataka</option>
+            <option value="Kerala">Kerala</option>
+            <option value="Madhya Pradesh">Madhya Pradesh</option>
+            <option value=" Maharashtra">Maharashtra</option>
+            <option value="Manipur">Manipur</option>
+            <option value="Meghalaya">Meghalaya</option>
+            <option value="Mizoram">Mizoram</option>
+            <option value="Nagaland">Nagaland</option>
+            <option value="Odisha">Odisha</option>
+            <option value="Punjab">Punjab</option>
+            <option value="Rajasthan">Rajasthan</option>
+            <option value="Sikkim">Sikkim</option>
+            <option value="Tamil Nadu">Tamil Nadu</option>
+            <option value="Telangana">Telangana</option>
+            <option value="Tripura">Tripura</option>
+            <option value="Uttar Pradesh">Uttar Pradesh</option>
+            <option value="Uttarakhand">Uttarakhand</option>
+            <option value="West Bengal">West Bengal</option>
+        <input type="text" required placeholder="Pin-Code of your Area">
+           </div>
+           <div class="check">
+        <p><input id="checkbox" type="checkbox" required>By clicking on the submit button I agree with<a href="#">Terms and condtions</a><br><a href="#">Privacy Policy</a>and in recieving emails from this site.</p>
+        <input type="submit" value="Submit" id="btn">
+           </div>
+           <div class="head_mid">
+               <header></header>
+           </div>
+           <div class="mid">
+               <h2>Help India to Fight Against Covid-19</h2>
+               <p>Stay Home,Stay Safe and Follow the guidelines Provide by Government.</p>
+               <div class="images">
+               <img src="mask2-removebg-preview.png" width="120px" height="auto">
+               <img src="social-distancing.png" width="150px" height="auto">
+               <img src="stay_home-removebg-preview.png" width="150px" height="auto">
+               <img src="family.png" width="150px" height="auto">
+            </div>
+               </div>
+           </div>
+ <div class="box">
+     <h1><q>Donate Us For Needies</q></h1> 
+     <p>Your valuable donation would enable the vulnerables and the needy ones in awailing the healthcare facilities and proper medications for free.</p>
+     <button id="bttn" type="submit" value="Donate Now">Donate Now</button>
+     <img src="girldoc.png" width="200px" height="auto">
+     <video id="vid" src="covid.mp4" controls autoplay loop height="280px"width="300px" controls loop autoply></video>
+     <h2>"Your Feedback"</h2>
+     <textarea placeholder="Type Your review or feedback for our future benifisiaries..."></textarea>
+     <img class="ig" src="team-removebg-preview.png" width="250px" height="auto">
+ </div>
+    <div class="footer"> 
+            <a class="ac" href="#">Helpline</a>
+            <a class="ac" href="#">Queries</a>
+        <div class="icons">&nbsp;
+            <a href="#"><i class="fab fa-facebook"></i></a>&nbsp;&nbsp;
+            <a href="#"><i class="fab fa-twitter"></i></a>&nbsp;&nbsp;
+            <a href="#"><i class="fab fa-instagram"></i></a>&nbsp;&nbsp;
+            <a href="#"><i class="fab fa-youtube"></i></a>&nbsp;&nbsp;
+            <a href="#"><i class="fab fa-whatsapp"></i></a>&nbsp;&nbsp;
+        </div>
+
+    </div>
+</body>
+</html>
