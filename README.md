@@ -20,3 +20,4 @@ For front-end development of website we have used : HTML,CSS,etc.
 This website also requires the use of JS,React.js for front-end development and for back-end developemnt this website requires node.js and few other softwares.
 
 Process Flow:
+![Screenshot (2992)](https://user-images.githubusercontent.com/75929127/119359203-00087480-bcc7-11eb-8c39-f0f8a1e12730.png)
